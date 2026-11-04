@@ -1,0 +1,30 @@
+# Abaikan semua item di direktori utama
+/*
+
+# Pengecualian file .gitignore itu sendiri
+!.gitignore
+
+# Pengecualian file utama di root
+!/README.md
+!/requirements.txt
+
+# Pengecualian folder beserta seluruh isinya
+!/0_GET-STARTED/
+!/0_GET-STARTED/**
+
+!/Catatan/
+!/Catatan/**
+
+!/Model/
+!/Model/**
+
+!/Notebook/
+!/Notebook/**
+
+!/Pengumpulan/
+!/Pengumpulan/**
+
+# gambar/asetnya
+xLain-Lain/*
+!xLain-Lain/img
+xLain-Lain/kebutuhan_kasus/
